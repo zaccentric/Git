@@ -1,0 +1,15 @@
+html {
+	font-family: 'Raleway', sans-serif;
+	color: rgb(120, 120, 120);
+	background-color: #FFF;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+	padding-top: 40%;
+}
+
+h2 {
+	text-align: center;
+}
