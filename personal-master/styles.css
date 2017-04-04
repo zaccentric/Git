@@ -1,15 +1,170 @@
-html {
-	font-family: 'Raleway', sans-serif;
-	color: rgb(120, 120, 120);
-	background-color: #FFF;
-}
+	html {
+		font-family: 'Raleway', sans-serif;
+		color: rgb(120, 120, 120);
+		background-color: rgb(230, 230, 250);
+	}
 
-h1 {
-	font-size: 3em;
-	text-align: center;
-	padding-top: 40%;
-}
+	body.container {
+		position: relative;
+		padding-top: 15%;
 
-h2 {
-	text-align: center;
-}
+	}
+
+	header.home h1#welcome {
+		text-align: center;
+		position: relative;
+		font-size: 3.5em;
+	}
+
+	header.home h1#zachweb {
+		text-align: center;
+		position: relative;
+		font-size: 1.7em;
+	}
+
+	#copyright {
+		float: right;
+		position: fixed;
+		left: 85%;
+		top: 90%;
+	}
+
+	a:link {
+		text-decoration: none;
+		color: inherit;
+		background-color: inherit;
+	}
+
+	a:hover {
+		color: black;
+		text-shadow: 1px 1px 50px blue;
+		background-color: inherit;
+	}
+
+	a:visited {
+		color: inherit;
+		background-color: inherit;
+	}
+
+	#line {
+		position: relative;
+		margin-top: 2em;
+		margin-bottom: 2em;
+		width: 60%;
+
+	}
+
+	#pages {
+		position: relative;
+		font-size: 1.2em;
+		text-align: center;
+	}
+
+	#resume {
+		padding-left: 3%;
+		padding-right: 5%;
+	}
+
+	#tbone {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	#contact {
+		padding-left: 5%;
+		padding-right: 3%;
+	}
+
+	#trombone {
+		text-align: center;
+	}
+
+	#trombone h2 {
+		font-size: 1.5em;
+	}
+	table {
+		width: 95%;
+	}
+
+	table th {
+		background-color: grey;
+		color: white;
+	}
+
+	table td, th {
+		font-size: 1.2em;
+	}
+
+	#home {
+		border-radius: 25px;
+		float: left;
+		border: 2px solid grey;
+		position: fixed;
+		text-align: left;
+		right: 90%;
+		padding-top: 15px;
+		padding-left: 15px;
+		padding-right: 16px;
+    	width: 50px;
+    	height: 15px;
+		padding-bottom: 20px;
+		background-color: rgb(50, 70, 100);
+		color: white;
+	}
+
+	#home2 {
+		border-radius: 25px;
+		float: right;
+		border: 2px solid grey;
+		position: fixed;
+		text-align: right;
+		left: 90%;
+		padding-top: 15px;
+		padding-left: 15px;
+		padding-right: 16px;
+    	width: 50px;
+    	height: 15px;
+		padding-bottom: 20px;
+		background-color: rgb(50, 70, 100);
+		color: white;
+	}
+
+	#mediaskip {
+		border-radius: 25px;
+		float: right;
+		border: 2px solid grey;
+		position: fixed;
+		text-align: right;
+		left: 90%;
+		padding-top: 15px;
+		padding-left: 15px;
+		padding-right: 16px;
+    	width: 50px;
+    	height: 15px;
+		padding-bottom: 20px;
+		background-color: rgb(50, 70, 100);
+		color: white;
+	}
+
+	table {
+		text-align: center;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+
+	#invitational, #comp, #honors, #awards {
+		border: 2px solid grey;
+		text-align: center;
+		background-color: rgb(200, 230, 255);
+		color: inherit;
+ 	}
+
+	tr:nth-child(even) {
+		background-color: rgb(170, 200, 255);
+		color: inherit;
+	}
+
+	tr:nth-child(odd) {
+		background-color: rgb(200, 230, 255);
+		color: inherit;
+	}
